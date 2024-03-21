@@ -20,14 +20,14 @@ h2 {
 
 	 font-family: "Montserrat", sans-serif;
 	 font-weight: 400;
-    font-size: 50px;
+    font-size: 35px;
     line-height: 45px;
     margin: 70px;
     color: #6EC1E4;
 }
 h3 {
 	 font-family: "Montserrat", sans-serif;
-    font-size: 55px;
+    font-size: 40px;
     color: #a09e9e;
     margin-bottom: 60px;
     color: #FF7F2A;
@@ -49,16 +49,25 @@ hr {
     border: none;
 }
 #logo{
-	 margin: 100px auto;
+	 margin: 50px auto;
 	 display: block;
 	 width: 200px;
 
+}
+/* Styles pour les icônes de réseaux sociaux */
+.social-icons {
+    margin-top: 20px; /* Espace entre le logo et les icônes */
+    margin-bottom: 50px; /* Espace entre les icônes et la suite */
+}
+
+.social-icons a {
+    margin: 0 10px; /* Espace entre chaque icône */
 }
 
 #about {
 	 min-height: 130px;
     padding: 100px; 
-    background-image: url('../images/bg.jpg');
+    background-image: url('../images/background.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -154,25 +163,9 @@ ul.socialmedia {
 
 /* Contact Section */
 
-#contact::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Changez l'opacité ici si nécessaire */
-    z-index: -1;
-}
 #contact {
-    padding: 30px 0;
-    min-height: 130px;
-    background-image: url('../images/bg.jpg');
-    background-size: cover;
-    background-position: center;
+    padding: 20px 0;
     position: relative;
-    z-index: 1;
-    background-attachment: fixed; /* Ajout de la propriété pour fixer le fond */
 }
 
 #contact .contact-message {
@@ -181,25 +174,16 @@ ul.socialmedia {
     margin-bottom: 50px;
 }
 
+#contact h2 {
+    margin-bottom: 5px;
+}
+
 #contact .contact-info {
     list-style: none;
     padding: 0;
-    
-    color : #fff;
+    font-size: 17px;
+    color : #000;
     margin-bottom: 50px;
-}
-
-#contact .contact-info li {
-    margin-bottom: 20px;
-    font-size: 20px;
-}
-
-#contact .contact-info i {
-    margin-right: 10px;
-}
-
-#contact .contact-info i:before {
-    font-size: 24px;
 }
 
 
