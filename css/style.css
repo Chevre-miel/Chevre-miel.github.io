@@ -163,7 +163,7 @@ ul.socialmedia {
 /* Contact Section */
 
 #contact {
-    padding: 20px 0;
+    padding: 0;
     position: relative;
 }
 
@@ -182,7 +182,7 @@ ul.socialmedia {
     padding: 0;
     font-size: 17px;
     color : #000;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 
 
