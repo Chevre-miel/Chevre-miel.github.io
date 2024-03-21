@@ -64,6 +64,11 @@ hr {
     margin: 0 10px; /* Espace entre chaque icône */
 }
 
+.social-icons a img:hover {
+    background-color:#6ec1e4ff;
+    padding:5px;
+}
+
 #about {
 	 min-height: 130px;
     padding: 100px; 

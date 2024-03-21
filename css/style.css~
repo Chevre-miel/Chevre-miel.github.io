@@ -62,6 +62,11 @@ hr {
 
 .social-icons a {
     margin: 0 10px; /* Espace entre chaque icône */
+    padding:5px;
+}
+
+.social-icons a img:hover {
+    background-color:#6ec1e4ff;
 }
 
 #about {
@@ -163,7 +168,7 @@ ul.socialmedia {
 /* Contact Section */
 
 #contact {
-    padding: 0px 0;
+    padding: 0;
     position: relative;
 }
 
