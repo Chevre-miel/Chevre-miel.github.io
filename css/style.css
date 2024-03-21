@@ -49,10 +49,19 @@ hr {
     border: none;
 }
 #logo{
-	 margin: 100px auto;
+	 margin: 50px auto;
 	 display: block;
 	 width: 200px;
 
+}
+/* Styles pour les icônes de réseaux sociaux */
+.social-icons {
+    margin-top: 20px; /* Espace entre le logo et les icônes */
+    margin-bottom: 50px; /* Espace entre les icônes et la suite */
+}
+
+.social-icons a {
+    margin: 0 10px; /* Espace entre chaque icône */
 }
 
 #about {
