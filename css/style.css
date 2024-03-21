@@ -1,0 +1,235 @@
+body {
+    background: #fff;
+}
+a {
+    color: #ed5b5b;
+}
+a:hover,
+a:focus {
+    color: #ed5b5b;
+}
+h1 {
+  font-family: "Sacramento", cursive;
+  font-weight: 400;
+    font-size: 100px;
+    text-align: center;
+    color: #bd2929;
+    margin: 50px;
+}
+h2 {
+
+	 font-family: "Montserrat", sans-serif;
+	 font-weight: 400;
+    font-size: 50px;
+    line-height: 45px;
+    margin: 70px;
+    color: #6EC1E4;
+}
+h3 {
+	 font-family: "Montserrat", sans-serif;
+    font-size: 55px;
+    color: #a09e9e;
+    margin-bottom: 60px;
+    color: #FF7F2A;
+}
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #a09e9e;
+    margin-bottom: 10px;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+hr {
+    border: none;
+}
+#logo{
+	 margin: 100px auto;
+	 display: block;
+	 width: 200px;
+
+}
+
+#about {
+	 min-height: 130px;
+    padding: 100px; 
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    background-attachment: fixed; /* Ajout de la propriété pour fixer le fond */
+}
+
+#about::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Changez l'opacité ici si nécessaire */
+    z-index: -1;
+}
+.btn-green {
+    background-color: #61CE70;
+}
+.btn-green a:link {
+    color: #fff;
+}
+.btn-green a:hover {
+    color: #ed5b5b;
+    text-decoration: none;
+}
+.portfolio-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+}
+.portfolio-link:hover {
+    color: #fff;
+    opacity: .4;
+}
+ul.socialmedia {
+    text-align: center;
+    margin-left: -40px;
+}
+.socialmedia li {
+	display: inline-block;
+	padding: 20px 10px;
+}
+.img-centered {
+    margin: 0 auto;
+}
+#folio.container.row.img {
+    width: 50px;
+}
+#credits {
+    background: #434242;
+    padding-top: 25px;
+    margin-top: 45px;
+}
+.text-credits {
+    font-size: 14px;
+    line-height: 17px;
+}
+
+
+/*--------------------
+4.6. services
+--------------------*/
+
+.services-item {
+    text-align: center;
+    background-color: #F5F5F5;
+}
+
+.services-item h3 {
+	 font-size: 25px;
+    font-weight: 300;
+    margin: 30px 0 20px;
+    text-transform: uppercase;
+}
+
+.services-item .services-position {
+	 color: #565656;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.services-item p {
+	font-size: 13px;
+	font-weight: 500;
+	color: #848484;
+	padding: 18px 30px 35px 30px;
+	line-height: 24px;
+	min-height: 150px;
+}
+
+/* Contact Section */
+
+#contact::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Changez l'opacité ici si nécessaire */
+    z-index: -1;
+}
+#contact {
+    padding: 30px 0;
+    min-height: 130px;
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    background-attachment: fixed; /* Ajout de la propriété pour fixer le fond */
+}
+
+#contact .contact-message {
+    font-size: 18px;
+    color : #FF7F2A;
+    margin-bottom: 50px;
+}
+
+#contact .contact-info {
+    list-style: none;
+    padding: 0;
+    
+    color : #fff;
+    margin-bottom: 50px;
+}
+
+#contact .contact-info li {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#contact .contact-info i {
+    margin-right: 10px;
+}
+
+#contact .contact-info i:before {
+    font-size: 24px;
+}
+
+
+/* Style pour les petits écrans */
+@media (max-width: 767px) {
+    .contact-info, .map {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+h1 {
+    font-size: 60px;
+    margin-bottom: 35px;
+}
+h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+p {
+    font-size: 18px;
+    line-height: 30px;
+}
+#about {
+    padding: 18px;
+}
+#credits {
+    padding-top: 15px;
+    margin-top: 15px;
+}
+.space {
+    margin-top: -20px;    
+}
