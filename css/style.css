@@ -107,10 +107,6 @@ hr {
     position: relative;
     margin: 0 auto;
 }
-.portfolio-link:hover {
-    color: #fff;
-    opacity: .4;
-}
 ul.socialmedia {
     text-align: center;
     margin-left: -40px;
