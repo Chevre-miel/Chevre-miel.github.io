@@ -2,11 +2,11 @@ body {
     background: #fff;
 }
 a {
-    color: #ed5b5b;
+    color: #6EC1E4;
 }
 a:hover,
 a:focus {
-    color: #e3a5a5ff;
+    color: #bd2929;
 }
 h1 {
   font-family: "Sacramento", cursive;

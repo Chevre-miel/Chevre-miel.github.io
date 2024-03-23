@@ -2,11 +2,11 @@ body {
     background: #fff;
 }
 a {
-    color: #ed5b5b;
+    color: #6EC1E4;
 }
 a:hover,
 a:focus {
-    color: #e3a5a5ff;
+    color: #bd2929;
 }
 h1 {
   font-family: "Sacramento", cursive;
@@ -65,7 +65,7 @@ hr {
 }
 
 .social-icons a img:hover {
-    background-color:#e3a5a5ff;
+    background-color:#6ec1e4ff;
     padding:5px;
     border-radius: 5px; /* Coins arrondis */
     transition:border-radius 0.3s ease, background-color 0.3s ease; /* Transition en douceur */
@@ -106,10 +106,6 @@ hr {
     display: block;
     position: relative;
     margin: 0 auto;
-}
-.portfolio-link:hover {
-    color: #fff;
-    opacity: .4;
 }
 ul.socialmedia {
     text-align: center;
